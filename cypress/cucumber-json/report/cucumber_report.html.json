@@ -1,0 +1,133 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Invalid Email or password",
+    "line": 1,
+    "id": "invalid-email-or-password",
+    "tags": [],
+    "uri": "FIRSTPRJCT.feature",
+    "elements": [
+      {
+        "id": "invalid-email-or-password;login-with-incorrect-email-and-password",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Login with incorrect email and password",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I open the browser",
+            "result": {
+              "status": "passed",
+              "duration": 172000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 5,
+            "name": "I navigate to the base URL",
+            "result": {
+              "status": "passed",
+              "duration": 5126000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "verify title should be 'Automation Exercise'",
+            "result": {
+              "status": "passed",
+              "duration": 120000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "Click on Signup  Login button",
+            "result": {
+              "status": "passed",
+              "duration": 1940000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "Login to your account visible",
+            "result": {
+              "status": "passed",
+              "duration": 46000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "Enter incorrect 'test@mail.com' address and 'test@1234'",
+            "result": {
+              "status": "passed",
+              "duration": 1120000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "Click login button",
+            "result": {
+              "status": "passed",
+              "duration": 2373000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "Check Error Meaasage",
+            "result": {
+              "status": "passed",
+              "duration": 102000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "return to home page",
+            "result": {
+              "status": "passed",
+              "duration": 4304000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "check for polo brand",
+            "result": {
+              "status": "passed",
+              "duration": 124000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 14,
+            "name": "check for biba brand",
+            "result": {
+              "status": "passed",
+              "duration": 104000000
+            }
+          }
+        ],
+        "retried": null
+      }
+    ]
+  }
+]

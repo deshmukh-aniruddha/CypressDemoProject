@@ -1,0 +1,20 @@
+{
+    "testFiles": ["**/*.feature"],
+   
+    "cypress-cucumber-preprocessor":{
+        "stepDefinitions":[
+            "cypress/integration/**/**/*.js"
+           
+        ]
+        
+    },
+    "html":{
+        "enabled":true
+    },
+    
+        "viewportWidth": 1200,
+        "viewportHeight": 1000
+  
+        
+      
+}

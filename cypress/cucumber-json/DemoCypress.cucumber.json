@@ -1,0 +1,132 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Invalid Email or password",
+    "line": 1,
+    "id": "invalid-email-or-password",
+    "tags": [],
+    "uri": "DemoCypress.feature",
+    "elements": [
+      {
+        "id": "invalid-email-or-password;login-with-incorrect-email-and-password",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Login with incorrect email and password",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "Launch the browser",
+            "result": {
+              "status": "passed",
+              "duration": 90000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 5,
+            "name": "Navigate to the base URL",
+            "result": {
+              "status": "passed",
+              "duration": 3193000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "Verify if title is 'Automation Exercise'",
+            "result": {
+              "status": "passed",
+              "duration": 23000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "Click on Signup / Login button",
+            "result": {
+              "status": "passed",
+              "duration": 723000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "Check if Login to your account visible",
+            "result": {
+              "status": "passed",
+              "duration": 27000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "Enter incorrect email 'test@mail.com' and password 'test@1234'",
+            "result": {
+              "status": "passed",
+              "duration": 628000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "Click login button",
+            "result": {
+              "status": "passed",
+              "duration": 852000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "Check Error Message",
+            "result": {
+              "status": "passed",
+              "duration": 30000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "Return to home page",
+            "result": {
+              "status": "passed",
+              "duration": 2414000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "Check for Polo brand",
+            "result": {
+              "status": "passed",
+              "duration": 38000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 14,
+            "name": "Check for Biba brand",
+            "result": {
+              "status": "passed",
+              "duration": 32000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
